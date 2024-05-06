@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    discord,
+    fides,
 } from "../assets/icons";
 
 export const skills = [
@@ -173,56 +175,42 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/ckobasti77',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/jovan-milojevic-b51a05251/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        iconUrl: discord,
+        theme: 'btn-back-black',
+        name: 'Full Stack Discord Clone',
+        description: 'Introducing our Discord Clone app - a dynamic platform offering seamless communication through text, voice, and video channels. Stay connected, organized, and secure with real-time alerts and robust moderation tools. Join us and revolutionize your online communication experience today!',
+        link: 'https://github.com/ckobasti77/discord-clone',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Watcha Watchin?',
+        description: 'Movie trailer base based on TMDB api. Links for watchin whole movies for signed users. Coded with ReactJS.',
+        link: 'https://github.com/ckobasti77/watchawatchin',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        iconUrl: fides,
+        theme: 'btn-back-pink',
+        name: 'Fides Construction',
+        description: 'Presenting a bespoke website tailored for a private client, meticulously crafted for optimal UI/UX, robust development, and enhanced SEO performance, ensuring maximum visibility and engagement.',
+        link: 'https://github.com/ckobasti77/fidesgradnja',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Digist',
+        description: 'Introducing a custom-built website designed exclusively for a private client, meticulously honed to deliver an exceptional user experience, seamless development, and top-tier SEO integration, maximizing online presence and audience reach.',
+        link: 'https://github.com/ckobasti77/Digist',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];

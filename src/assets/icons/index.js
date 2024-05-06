@@ -24,6 +24,8 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
+import discord from './discord.svg'
+import fides from './fides.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
@@ -55,5 +57,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    discord,
+    fides,
 }
