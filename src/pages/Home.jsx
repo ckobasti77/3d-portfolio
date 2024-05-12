@@ -111,7 +111,7 @@ const Home = () => {
       </div>
       <div className="absolute top-0 right-5 h-full flex flex-col justify-center items-center gap-y-5">
         {socialLinks.map((link) => (
-          <a href={link.link} key={link.name}>
+          <a href={link.link} key={link.name} target="_blank">
             <img 
               src={link.iconUrl}
               alt={link.name}

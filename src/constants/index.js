@@ -26,6 +26,12 @@ import {
     typescript,
     discord,
     fides,
+    apple,
+    gsap,
+    mysql,
+    figma,
+    webflow,
+    prisma,
 } from "../assets/icons";
 
 export const skills = [
@@ -63,6 +69,21 @@ export const skills = [
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: prisma,
+        name: "Prisma",
+        type: "ORM",
+    },
+    {
+        imageUrl: gsap,
+        name: "Gsap",
+        type: "Animation",
     },
     {
         imageUrl: motion,
@@ -108,7 +129,17 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "UI / UX Design",
+    },
+    {
+        imageUrl: webflow,
+        name: "Webflow",
+        type: "Frontend",
+    },
 ];
 
 export const experiences = [
@@ -186,31 +217,42 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: apple,
+        theme: 'btn-back-black',
+        name: 'Apple iPhone 15 Pro',
+        description: "Presenting the iPhone 15 Pro Website Reimagined - an immersive digital showcase that redefines user engagement and interaction. Experience cutting-edge design, seamless navigation, and captivating content that brings the essence of Apple's latest innovation to life. Explore the future of digital experience with us.",
+        github: 'https://github.com/ckobasti77/iPhone15Pro',
+        link: 'https://appleiphone15-pro.vercel.app/',
+    },
+    {
         iconUrl: discord,
         theme: 'btn-back-black',
         name: 'Full Stack Discord Clone',
         description: 'Introducing our Discord Clone app - a dynamic platform offering seamless communication through text, voice, and video channels. Stay connected, organized, and secure with real-time alerts and robust moderation tools. Join us and revolutionize your online communication experience today!',
-        link: 'https://github.com/ckobasti77/discord-clone',
+        github: 'https://github.com/ckobasti77/discord-clone',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Watcha Watchin?',
         description: 'Movie trailer base based on TMDB api. Links for watchin whole movies for signed users. Coded with ReactJS.',
-        link: 'https://github.com/ckobasti77/watchawatchin',
+        github: 'https://github.com/ckobasti77/watchawatchin',
+        link: 'https://watchawatchin.vercel.app/',
     },
     {
         iconUrl: fides,
         theme: 'btn-back-pink',
         name: 'Fides Construction',
         description: 'Presenting a bespoke website tailored for a private client, meticulously crafted for optimal UI/UX, robust development, and enhanced SEO performance, ensuring maximum visibility and engagement.',
-        link: 'https://github.com/ckobasti77/fidesgradnja',
+        github: 'https://github.com/ckobasti77/fidesgradnja',
+        link: 'https://fides.rs/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Digist',
         description: 'Introducing a custom-built website designed exclusively for a private client, meticulously honed to deliver an exceptional user experience, seamless development, and top-tier SEO integration, maximizing online presence and audience reach.',
-        link: 'https://github.com/ckobasti77/Digist',
+        github: 'https://github.com/ckobasti77/Digist',
+        link: 'https://digist.vercel.app/',
     },
 ];
