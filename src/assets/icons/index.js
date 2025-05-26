@@ -34,6 +34,7 @@ import mysql from "./mysql.svg";
 import figma from "./figma.svg";
 import webflow from "./webflow.svg";
 import prisma from "./prisma.svg";
+import gbmt from "./gbmt.avif";
 
 export {
   css,
@@ -72,4 +73,5 @@ export {
   figma,
   webflow,
   prisma,
+  gbmt
 };

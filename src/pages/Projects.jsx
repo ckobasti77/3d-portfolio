@@ -7,9 +7,8 @@ const Projects = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
-        My{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
-          Projects
+          My Projects
         </span>
       </h1>
 
@@ -49,7 +48,7 @@ const Projects = () => {
                   <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
                 </Link>
                 {project.link && (
-                  <Link to={project.github} target="_blank" rel="noopener noreferrer" className="mt-5 flex items-center gap-2 font-poppins">
+                  <Link to={project.link} target="_blank" rel="noopener noreferrer" className="mt-5 flex items-center gap-2 font-poppins">
                     <span className="font-semibold text-blue-600">
                       Live Link
                     </span>
@@ -61,6 +60,12 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <p>
+          And many more...
+        </p>
       </div>
 
       <hr className="border-slate-200" />

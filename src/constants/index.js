@@ -32,6 +32,7 @@ import {
     figma,
     webflow,
     prisma,
+    gbmt
 } from "../assets/icons";
 
 export const skills = [
@@ -226,7 +227,7 @@ export const projects = [
     },
     {
         iconUrl: discord,
-        theme: 'btn-back-black',
+        theme: 'btn-back-pink',
         name: 'Full Stack Discord Clone',
         description: 'Introducing our Discord Clone app - a dynamic platform offering seamless communication through text, voice, and video channels. Stay connected, organized, and secure with real-time alerts and robust moderation tools. Join us and revolutionize your online communication experience today!',
         github: 'https://github.com/ckobasti77/discord-clone',
@@ -240,8 +241,16 @@ export const projects = [
         link: 'https://watchawatchin.vercel.app/',
     },
     {
+        iconUrl: gbmt,
+        theme: 'btn-back-black',
+        name: 'Mobil Trend',
+        description: 'Discover a tailor-made website crafted for a select client, expertly designed to ensure flawless performance, outstanding user engagement, and advanced SEO optimization to boost visibility and expand reach.',
+        github: 'https://github.com/ckobasti77/gbmt-mobile',
+        link: 'https://mobil-trend.vercel.app/',
+    },
+    {
         iconUrl: fides,
-        theme: 'btn-back-pink',
+        theme: 'btn-back-black',
         name: 'Fides Construction',
         description: 'Presenting a bespoke website tailored for a private client, meticulously crafted for optimal UI/UX, robust development, and enhanced SEO performance, ensuring maximum visibility and engagement.',
         github: 'https://github.com/ckobasti77/fidesgradnja',
@@ -254,5 +263,13 @@ export const projects = [
         description: 'Introducing a custom-built website designed exclusively for a private client, meticulously honed to deliver an exceptional user experience, seamless development, and top-tier SEO integration, maximizing online presence and audience reach.',
         github: 'https://github.com/ckobasti77/Digist',
         link: 'https://digist.vercel.app/',
+    },
+    {
+        iconUrl: gbmt,
+        theme: 'btn-back-green',
+        name: 'GBMT',
+        description: 'Discover a tailor-made website crafted for a select client, expertly designed to ensure flawless performance, outstanding user engagement, and advanced SEO optimization to boost visibility and expand reach.',
+        github: 'https://github.com/ckobasti77/gbmt',
+        link: 'https://gbmt.rs/',
     },
 ];
