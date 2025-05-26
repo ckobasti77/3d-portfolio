@@ -17,6 +17,7 @@ const renderContent = {
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
       Hi, I am <span className="font-semibold">Jovan</span>👋
       <br />A Software Engineer from Serbia
+      <br />Specialized in 3D design
     </h1>
   ),
   2: (
